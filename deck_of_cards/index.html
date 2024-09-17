@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Include Bootstrao Styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Include Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Deck of Cards - Async/Await</title>
+</head>
+<body class="bg-success">
+    <div class="container p-1">
+        <h1 class="text-white">Ralph's Card Dealer - Async/Await Version</h1>
+        <br>
+        <button class="btn btn-warning" id="btn_load">Load New Deck</button>
+        <p class="text-light" id="prep_deck"></p><br>
+
+        <button class="btn btn-dark" id="btn_draw">Draw A Card</button>
+        <br><br>
+        <img id="card_image" src="https://deckofcardsapi.com/static/img/back.png" alt="Card" />
+        <br><br>
+
+        <p class="text-light" id="remaining_cards"></p>
+        <p id="new_card"></p><br>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
